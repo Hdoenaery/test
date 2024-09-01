@@ -9,10 +9,10 @@ public class Demo {
         System.out.println("b = " + b);
         if(a > b)
             System.out.println("a>b");
-        else if(a < b)
-            System.out.println("a<b");
-        else {
+        else if(a == b)
             System.out.println("a=b");
+        else {
+            System.out.println("a<b");
         }
     }
 
